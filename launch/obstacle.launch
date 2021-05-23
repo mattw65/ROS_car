@@ -1,0 +1,6 @@
+<launch>
+
+    <param name="/team_golf/reset_to_pit_stop" type="int" value="1"/>
+    <node pkg="race" name="obstacle" type="obstacle.py" output="screen"/>
+
+</launch>
